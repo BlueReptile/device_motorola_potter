@@ -324,9 +324,6 @@
          NOTE: This requires additional hardware-specific code. -->
     <!--<bool name="config_uiBlurEnabled">true</bool>-->
 
-    <!--  Whether to show navbar in lock task mode -->
-    <bool name="config_showNavbarInLockTaskMode">true</bool>
-
     <!-- Default files to pin via Pinner Service -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>"/system/framework/arm64/boot-framework.oat"</item>
@@ -338,9 +335,6 @@
         <item>"/system/framework/arm64/boot-core-libart.oat"</item>
         <item>"/system/framework/arm64/boot-core-libart.vdex"</item>
     </string-array>
-
-    <!-- Whether to show navbar when fingerprint sensor is busy -->
-    <bool name="config_showNavbarWhenFingerprintSensorBusy">true</bool>
 
    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
    in hardware. -->
